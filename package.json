@@ -1,0 +1,54 @@
+{
+	"name": "box-manager",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite",
+		"dev:host": "vite --host",
+		"format": "prettier . --write"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"prettier": {
+		"proseWrap": "always",
+		"singleQuote": false,
+		"tabWidth": 4,
+		"useTabs": true
+	},
+	"dependencies": {
+		"@chayns-components/core": "^5.0.0-beta.769",
+		"@chayns/uac-service": "^0.0.50",
+		"@hyper-fetch/core": "^5.7.5",
+		"@hyper-fetch/react": "^5.7.5",
+		"chayns-api": "^1.1.10",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.4",
+		"@types/react": "^18.3.5",
+		"@types/react-dom": "^18.3.0",
+		"@typescript-eslint/eslint-plugin": "^7.9.0",
+		"@typescript-eslint/parser": "^7.8.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"eslint": "^8.57.0",
+		"prettier": "^3.3.3",
+		"prettier-plugin-packagejson": "^2.5.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4",
+		"vite": "^5.4.3",
+		"vite-plugin-checker": "^0.8.0"
+	}
+}

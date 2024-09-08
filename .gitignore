@@ -1,0 +1,11 @@
+**.json
+# **.http
+**build
+**node_modules
+!**package.json
+!**package-lock.json
+!**manifest.json
+!**tsconfig.json
+**music-data
+**public/assets
+**.gen.ts
